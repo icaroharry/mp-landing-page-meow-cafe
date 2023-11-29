@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meow Café</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar__logo-links">
+          <img
+            class="navbar__logo"
+            src="/images/logo.png"
+            alt="Logo do Meow Café - Ilustração de um gato deitado próximo a uma xícara de café"
+          />
+          <span class="navbar__title">Meow Café</span>
+          <ul class="navbar__links">
+            <li class="active">Início</li>
+            <li>Produtos</li>
+            <li>Sobre</li>
+          </ul>
+        </div>
+
+        <ul class="navbar__login-group">
+          <li class="navbar__login-link">Login</li>
+          <li class="navbar__delivery-link">
+            <button>Delivery</button>
+          </li>
+          <li class="navbar__hamburger-button">
+            <button>
+              <img src="/images/menu.svg" alt="Ícone de menu hamburguer" />
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="navbar-mobile">
+        <li class="active">Início</li>
+        <li>Produtos</li>
+        <li>Sobre</li>
+        <li>Login</li>
+      </ul>
+
+      <img
+        class="header-image"
+        src="/images/header.png"
+        alt="Imagem de fundo do header - Ilustração colorida de um copo de café próximo de um gato"
+      />
+
+      <div class="titles">
+        <h3 class="titles__slogan">Sabor inesquecível</h3>
+        <h1 class="titles__main">Meow Café</h1>
+        <p class="titles__description">
+          Um lugar perfeito para pais de pets e amantes de café. Nossa cafeteria
+          tem um espaço confortável para você e seu melhor amigo.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <section class="coffees">
+        <h1 class="coffees__title">Cafés</h1>
+        <div class="coffees__title-underline"></div>
+
+        <h3 class="coffees__subtitle">
+          Conheça nossos cafés exclusivos pensados e preparados por nossos
+          baristas renomados.
+        </h3>
+        <a class="coffees__link" href="">Veja Todos ></a>
+
+        <ul class="coffees__list">
+          <li class="coffees__item one">
+            <img
+              class="coffees__item-image"
+              src="/images/capuccino.png"
+              alt="Imagem de uma xícara de Capuccino"
+            />
+            <span class="coffees__item-price">R$ 24,00</span>
+            <span class="coffees__item-name">Capuccino</span>
+            <p class="coffees__item-description">
+              Café expresso , leite vaporizado, espuma e um toque de caramelo.
+            </p>
+            <button class="coffees__item-delivery-button">Delivery</button>
+          </li>
+
+          <li class="coffees__item two">
+            <img
+              class="coffees__item-image"
+              src="/images/latte.png"
+              alt="Imagem de uma xícara de Café ao Leit"
+            />
+            <span class="coffees__item-price">R$ 16,00</span>
+            <span class="coffees__item-name">Café ao Leite</span>
+            <p class="coffees__item-description">
+              O clássico, amado pelos brasileiros, com um toque de sofisticação!
+            </p>
+            <button class="coffees__item-delivery-button">Delivery</button>
+          </li>
+
+          <li class="coffees__item three">
+            <img
+              class="coffees__item-image"
+              src="/images/black.png"
+              alt="Imagem de uma xícara de café preto"
+            />
+            <span class="coffees__item-price">R$ 12,00</span>
+            <span class="coffees__item-name">Café Preto</span>
+            <p class="coffees__item-description">
+              Grãos selecionados feitos no seu método de preparo favorito.
+            </p>
+            <button class="coffees__item-delivery-button">Delivery</button>
+          </li>
+        </ul>
+
+        <img
+          class="coffees__background-image"
+          src="/images/coffees-background.png"
+          alt="Imagem de fundo com grãos de café e um biscoito"
+        />
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="croissant">
+        <div class="croissant__info">
+          <div class="croissant__pricing">
+            <span> R$ 12,00 </span>
+          </div>
+          <h1 class="croissant__title">Croissants</h1>
+          <div class="croissant__divider"></div>
+          <h2 class="croissant__subtitle">Conheça nossa receita</h2>
+          <p class="croissant__description">
+            A nossa receita de Croissant vai te surpreender. Croissants
+            clássicos ou recheados!
+          </p>
+          <a class="croissant__link" href="">Todos os croissants ></a>
+          <a class="croissant__link-mobile" href="">Veja Todos ></a>
+        </div>
+        <div>
+          <img
+            class="croissant__image"
+            src="/images/croissant.png"
+            alt="Imagem de um croissant"
+          />
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="delivery">
+        <img
+          class="delivery__image"
+          src="/images/delivery.png"
+          alt="Embalagens de café para delivery"
+        />
+        <div class="delivery__info">
+          <h1 class="delivery__title">Levamos até você!</h1>
+          <h3 class="delivery__subtitle">
+            Estamos nos principais aplicativos de Delivery!
+          </h3>
+          <button class="delivery__button">Delivery</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="about-us">
+        <div>
+          <span class="about-us__span">Sobre nós</span>
+          <h2 class="about-us__title">
+            Nós oferecemos uma experiência inesquecível para amantes de café e
+            pais de pet!
+          </h2>
+        </div>
+
+        <div class="about-us__text">
+          <span class="about-us__subtitle">
+            O melhor lugar para apreciar o seu café
+          </span>
+          <p class="about-us__description">
+            No Meow Cafe, priorizamos a criação de um espaço onde tanto os seres
+            humanos quanto seus animais de estimação possam relaxar e desfrutar.
+          </p>
+
+          <p class="about-us__description">
+            Nosso design interior é inspirado na harmonia e conforto, com sofás
+            aconchegantes, iluminação suave e uma decoração que remete à
+            natureza e à alegria que os animais trazem para nossas vidas.
+          </p>
+        </div>
+        <img
+          class="about-us__background-image"
+          src="/images/about-us-background.png"
+          alt="Imagem de fundo com grãos de café e xícaras"
+        />
+      </section>
+    </div>
+
+    <div class="container">
+      <div class="meow-enjoy-container">
+        <section class="meow-enjoy">
+          <div>
+            <div>
+              <h1 class="meow-enjoy__title">Meow Enjoy</h1>
+              <div class="meow-enjoy__divider"></div>
+              <h4 class="meow-enjoy__subtitle">Todos os sábados e domingos</h4>
+              <p class="meow-enjoy__description">
+                Venha tomar o seu brunch com a gente!
+              </p>
+              <a class="meow-enjoy__link">Faça uma reserva ></a>
+            </div>
+            <img
+              class="meow-enjoy__image"
+              src="/images/enjoy-coffee.png"
+              alt="Xícara de café espirrando"
+            />
+          </div>
+        </section>
+        <section class="meow-enjoy-address">
+          <h1 class="meow-enjoy-address__title">Onde estamos</h1>
+          <div class="meow-enjoy-address__divider"></div>
+          <p class="meow-enjoy-address__description">
+            Você pode nos encontrar no endereço:
+          </p>
+          <div class="meow-enjoy-address__text">
+            <img src="/images/map-pin.png" alt="Ícone de pin de mapa" />
+            <span>Rua do Miado 234, Gatolândia</span>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="footer-divider"></div>
+      <footer>
+        <section class="footer__info">
+          <h3>Informações</h3>
+          <p>Todos os direitos reservados Meow Cafe Ltda.</p>
+          <p>Um lugar perfeito para pais de pets e amantes de café!</p>
+          <div class="footer__social">
+            <img src="/images/instagram.png" alt="Ícone do Instagram" />
+            <img src="/images/facebook.png" alt="Ícone do Facebook" />
+            <img src="/images/whatsapp.png" alt="Ícone do WhatsApp" />
+          </div>
+        </section>
+
+        <section class="footer__links">
+          <h3>Links úteis</h3>
+          <ul>
+            <li>Início</li>
+            <li>Sobre</li>
+            <li>Produtos</li>
+            <li>Delivery</li>
+            <li>Login</li>
+          </ul>
+        </section>
+        <section class="footer__company">
+          <h3>Institucional</h3>
+          <ul>
+            <li><b>CNPJ:</b> XX. XXX. XXX/0001-XX</li>
+            <li><b>Endereço:</b> Lorem ipsum, 64</li>
+            <li>Política de Privacidade</li>
+            <li>Dúvidas frequentes</li>
+            <li>Ajuda</li>
+            <li>Acessibilidade</li>
+          </ul>
+        </section>
+      </footer>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
